@@ -12,10 +12,9 @@
 	<description>Demo project for Spring Boot</description>
 
 	<parent>
-		<groupId>org.springframework.boot</groupId>
-		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>1.5.6.RELEASE</version>
-		<relativePath/> <!-- lookup parent from repository -->
+		<groupId>com.alipay.sofa</groupId>
+		<artifactId>sofaboot-dependencies</artifactId>
+		<version>2.3.1</version>
 	</parent>
 
 	<properties>
@@ -62,7 +61,6 @@
 		<dependency>
 			<groupId>com.alipay.sofa</groupId>
 			<artifactId>sofa-ark-springboot-starter</artifactId>
-			<version>0.2.0</version>
 		</dependency>
 
 		<!--ark plugin-->
